@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     border: 1px solid red;
-    /* background-color: lightgrey; */
+    background-color: lightgrey;
 }
 
 /* Building Header */
@@ -61,7 +61,7 @@
 
 /* Section-2 */
 
-.symbol{
+.symbol-check{
     height: 30px;
     width: 30px;
     color: green;
@@ -72,14 +72,34 @@
 }
 
 .title-text{
-    font-size: 30px;
+    font-size: 2rem;
 }
 
 .sub-titol{
     font-size: 1.5rem;
 }
 
-.button-specific-section{
+.divided-section{
+    margin-bottom: 50px;
+}
+
+/* Color-buttom-in-section*/
+.button-editorial-section{
     color: white;
     background-color: aqua;
+    height: 1.5rem;
+    width: 4.5rem;
+    display: inline-block;
+    text-align: center;
+    border-radius: 3rem;
+}
+
+.button-goal-section{
+    color: white;
+    background-color: rgb(164, 0, 240);
+    height: 1.5rem;
+    width: 4.5rem;
+    display: inline-block;
+    text-align: center;
+    border-radius: 3rem;
 }
