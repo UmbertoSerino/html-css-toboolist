@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     border: 1px solid red;
-    background-color: lightgrey;
+    /* background-color: lightgrey; */
 }
 
 /* Building Header */
@@ -23,7 +23,7 @@
     font-size: 50px;
 }
 
-/* Section-main: Building bottom header */
+/* Section-1-main: Building bottom header */
 #container-central{
     height: 700px;
     margin: 50px 400px 50px 400px;
@@ -59,3 +59,27 @@
     border-color: rgb(177, 115, 115); ;
 }
 
+/* Section-2 */
+
+.symbol{
+    height: 30px;
+    width: 30px;
+    color: green;
+    border:1px solid green;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+}
+
+.title-text{
+    font-size: 30px;
+}
+
+.sub-titol{
+    font-size: 1.5rem;
+}
+
+.button-specific-section{
+    color: white;
+    background-color: aqua;
+}
