@@ -3,26 +3,39 @@
     padding: 0;
     box-sizing: border-box;
     border: 1px solid red;
+    background-color: lightgrey;
 }
 
+/* Building Header */
 .logo-size{
     height: 50px;
     width: 50px;
+    vertical-align: bottom;
+}
+
+.color-background-header{
+    background-color: white;
 }
 
 .name-brand{
     display: inline;
+    background-color: white;
+    font-size: 50px;
 }
 
+/* Section-main: Building bottom header */
 #container-central{
     height: 700px;
-    margin: 50px 500px 50px 500px;
+    margin: 50px 400px 50px 400px;
+    background-color: white;
 
 }
 
 .container-header{
     padding: 20px;
     font-size: 30px;
+    border-bottom: 5px solid lightgray;
+    background-color: white;
 
 }
 
@@ -33,10 +46,11 @@
     padding: 10px;
     border-radius: 10px;
     color: white;
+    margin: 10px 10px 10px 20px;
 }
 
 .bottom-2{
-   
+    margin: 10px 0px 10px 20px;
     height: 150px;
     width: 150px;
     padding: 10px;
@@ -44,3 +58,4 @@
     color: rgb(177, 115, 115);
     border-color: rgb(177, 115, 115); ;
 }
+
