@@ -13,3 +13,8 @@
 .name-brand{
     display: inline;
 }
+
+#container-central{
+    height: 700px;
+    margin: 50px 500px 50px 500px;
+}
